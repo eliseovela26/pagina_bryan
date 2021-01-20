@@ -74,6 +74,7 @@ ul {
   display: flex;
   width: 100%;
   background: #021E77;
+  padding: 2%;
 }
 .cajageneral3{
   display: flex;
@@ -129,7 +130,7 @@ ul {
 }
 .cajalogo{
   display: flex;
-  width:50%;
+  /* width:50%; */
   align-items: center;
   justify-content: center;
 }

@@ -1,0 +1,27 @@
+.piepagina {
+    flex-direction: column;
+    padding: 5% 12%;
+}
+
+.cajacolumna {
+    flex-direction: column;
+}
+.cajacolumna .cajatext1, .cajatext2{
+    margin: .5% 0;
+}
+
+.barramenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.cajaslider{
+    padding: 0;
+}
+.cajaslider .slider1{
+    height: 300px;
+}

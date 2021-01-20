@@ -1,0 +1,17 @@
+.gridbodycolumna1 {
+    grid-template-columns: repeat(1,1fr);
+}
+
+.cajageneral3{
+    flex-direction: column;
+}
+.cajacontiene2{
+    justify-content: center;
+}
+
+.cajacontiene{
+    padding-left: initial;
+}
+.cajabuscar input#buscar{
+    width: auto;
+}
