@@ -7,11 +7,13 @@
     <meta name="keywords" content="Maestria, Web, UNDAC">
     <link rel="shortcut icon" href="./IMG/logo.jpg">
     <link rel="stylesheet" type="text/css" href="./inicio.css" media="screen, handheld">
-    <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" media="(max-width: 1100px)" href="max-width-810.css" />
     <link rel="stylesheet" media="(max-width: 700px)" href="max-width-700.css" />
     <link rel="stylesheet" media="(max-width: 612px)" href="max-width-612.css" />
     <link rel="stylesheet" media="(max-width: 450px)" href="max-width-450.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
 <header>
@@ -73,7 +75,48 @@
     </div>
   </div>
 </header>
-<nav>
+<main class="menu-content">
+  <nav class="content-menu">
+
+      <label for="toggle" class="res-menu">
+          <img src="IMG/menu.png" alt="menu">
+      </label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+          <ul class="first-deslice">
+              <li class="first-iten"><a class="first-link" href="#">INICIO</a></li>
+              
+              <li class="first-iten"><a class="first-link">NOSOTROS</a>
+                  <ul class="second-deslice">
+                      <li class="second-iten"><a class="second-link" href="#">VISIÓN</a></li>
+                      <li class="second-iten"><a class="second-link" href="#">MISIÓN</a></li>
+                      <li class="second-iten"><a class="second-link" href="#">DOCUMENTOS DE GESTIÓN</a></li>
+                      <li class="second-iten"><a class="second-link" href="#">ORGANIGRAMA</a></li>
+                      <li class="second-iten"><a class="second-link" href="#">RESOLUCIONES</a></li>
+                  </ul>
+              </li>
+              <li class="first-iten"><a class="first-link">SERVICIOS</a>
+                <ul class="second-deslice">
+                    <li class="second-iten"><a class="second-link" href="#">HISMINSA</a></li>
+                    <li class="second-iten"><a class="second-link" href="#">SISCOVID</a>
+                    <li class="second-iten"><a class="second-link" href="#">E-QHALY</a>
+                    <li class="second-iten"><a class="second-link" href="#">REFCON</a>
+                    <li class="second-iten"><a class="second-link" href="#">CNV</a>
+                    <li class="second-iten"><a class="second-link" href="#">SINADEF</a>
+                </ul>
+              </li>
+              <li class="first-iten"><a class="first-link">EPIDEMIOLOGIA</a>
+                <ul class="second-deslice">
+                    <li class="second-iten"><a class="second-link" href="#">SALA SITUACIONAL</a></li>
+                    <li class="second-iten"><a class="second-link" href="#">VACUNOMETRO</a>
+                </ul>
+              </li>
+              <li class="first-iten"><a class="first-link" href="#">NOTICIAS</a></li>
+          </ul>
+      </div>
+  </nav>
+</main>
+<!-- <nav>
   <div class="barra">
     <ul class="barramenu">
       <li><a href="#">INICIO</a></li>
@@ -105,7 +148,7 @@
       <li><a href="#">NOTICIAS</a></li>
     </ul>
   </div>
-</nav>
+</nav> -->
 <section class="cajaslider"><!--slider*/-->
   <img class="slider1" src="./IMG/covid.jpg">
 </section>

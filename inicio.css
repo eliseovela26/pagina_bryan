@@ -309,6 +309,147 @@ ul {
   right: 40px;
   top: 0px;
 }
+
+/* Menu */
+
+.menu-content {
+  background-color: #c9c9c9;
+  overflow: hidden;
+}
+.menu-content .content-menu {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 8%;
+  width: 100vw;
+  min-height: 50px;
+  background-color: #0f1540;
+  justify-content: space-between;
+}
+.menu-content .content-menu a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+/* .menu-content .content-menu .logo {
+  width: 8%;
+  height: 100%;
+  margin-left: 12%;
+}
+.menu-content .content-menu .logo a {
+  width: 100%;
+  height: 100%;
+}
+.menu-content .content-menu .logo a img {
+  object-fit: cover;
+  display: block;
+  height: 70%;
+} */
+.menu-content .content-menu .res-menu {
+  display: none;
+}
+.menu-content .content-menu #toggle {
+  display: none;
+}
+.menu-content .content-menu .menu {
+ /*  width: 50%; */
+  height: 100%;
+}
+.menu-content .content-menu .menu .first-deslice {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row;
+  list-style: none;
+  background-color: #0f1540;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten {
+  height: 100%;
+  position: relative;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten:hover .first-link {
+  color: #fff;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .first-link {
+  height: 100%;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-family: 'mont-regular', sans-serif;
+  transition: color 650ms;
+  letter-spacing: 1px;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice {
+  top: initial;
+  display: none;
+  position: absolute;
+  background-color: #0f1540;
+  list-style: none;
+  align-items: center;
+  transition: all 2s ease;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten {
+  position: relative;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten:hover .second-link {
+  background-color: #fff;
+  color: #0f1540;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten .second-link {
+  /* width: 13rem; */
+  line-height: 1.5rem;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  /* padding: 5% 0.5rem; */
+  text-transform: uppercase;
+  display: block;
+  font-family: mont-regular, sans-serif;
+  transition: color 650ms;
+  letter-spacing: 1px;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten .three-deslice {
+  display: none;
+  background-color: #0f1540;
+  list-style: none;
+  align-items: center;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  transition: all 2s ease;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten .three-deslice .three-iten:hover .three-link {
+  background-color: #fff;
+  color: #0f1540;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten .three-deslice .three-iten .three-link {
+  line-height: 1.5rem;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  padding: 3.3% 0.5rem;
+  text-transform: uppercase;
+  display: block;
+  font-family: mont-regular, sans-serif;
+  transition: color 650ms;
+  letter-spacing: 1px;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten .second-deslice .second-iten:hover > ul {
+  display: block;
+}
+.menu-content .content-menu .menu .first-deslice .first-iten:hover > ul {
+  display: block;
+}
+
+#toggle:checked ~ .menu{
+  display: flex;
+}
+
+/* Fin Menu */
+
 .slider1{
   width: 100%;
   height: 450px;
